@@ -46,10 +46,42 @@
 		B92C7E25260BD955007F39FA /* Firestore */ = {
 			isa = PBXGroup;
 			children = (
-				B92C7E26260BD955007F39FA /* Firestore.h */,
+				B92C7E32260BDA8F007F39FA /* Swift */,
+				B92C7E2F260BDA26007F39FA /* Source */,
 				B92C7E27260BD955007F39FA /* Info.plist */,
 			);
 			path = Firestore;
+			sourceTree = "<group>";
+		};
+		B92C7E2F260BDA26007F39FA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B92C7E30260BDA3E007F39FA /* Public */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B92C7E30260BDA3E007F39FA /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				B92C7E31260BDA46007F39FA /* FirebaseFireStore */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		B92C7E31260BDA46007F39FA /* FirebaseFireStore */ = {
+			isa = PBXGroup;
+			children = (
+				B92C7E26260BD955007F39FA /* Firestore.h */,
+			);
+			path = FirebaseFireStore;
+			sourceTree = "<group>";
+		};
+		B92C7E32260BDA8F007F39FA /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
