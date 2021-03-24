@@ -4,10 +4,53 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Firebase.xcscheme_^#shared#^_</key>
+		<key>Firebase-Package.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Firebase.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>FirebaseFirestore.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FirebaseFirestoreSwift-Beta.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FirebaseFirestore</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FirebaseFirestoreSwift</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FirebaseFirestoreSwift-Beta</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FirebaseFirestoreSwiftTarget</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FirebaseFirestoreTarget</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

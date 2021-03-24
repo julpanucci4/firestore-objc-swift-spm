@@ -9,7 +9,12 @@ let package = Package(
 		.library(
 			name: "FirebaseFirestore",
 			targets: ["FirebaseFirestoreTarget"]
-		)],
+		),
+		.library(
+		  name: "FirebaseFirestoreSwift-Beta",
+		  targets: ["FirebaseFirestoreSwiftTarget"]
+		)
+	],
 	targets: [
 		.target(
 			name: "FirebaseFirestoreTarget",

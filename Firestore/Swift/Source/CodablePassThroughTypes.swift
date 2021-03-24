@@ -13,7 +13,7 @@ internal func isFirestorePassthroughType<T: Any>(_ value: T) -> Bool {
 	T.self == GeoPoint.self
 }
 
-
+@objc
 open class HelloWorld: {
 	open static func sayHello() {
 		print("Hello")

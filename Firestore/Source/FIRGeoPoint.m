@@ -12,6 +12,7 @@
 - (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude {
   if (self = [super init]) {
 	  NSLog(@"words :: %@", latitude);
+	  
   }
   return self;
 }
