@@ -14,8 +14,8 @@ internal func isFirestorePassthroughType<T: Any>(_ value: T) -> Bool {
 }
 
 @objc
-open class HelloWorld: {
-	open static func sayHello() {
+open class HelloWorld: NSObject{
+	public static func sayHello() {
 		print("Hello")
 	}
 }
