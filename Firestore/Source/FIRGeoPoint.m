@@ -6,13 +6,19 @@
 //
 
 #import "FIRGeoPoint.h"
+@import Helper;
+
 
 @implementation FIRGeoPoint
 
 - (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude {
   if (self = [super init]) {
-	  NSLog(@"words :: %@", latitude);
+	  NSLog(@"%@", latitude);
 	  
+	  HelloWorld* hw = [[HelloWorld alloc] init];
+	  
+	  
+	  NSLog(@"%@", hw.foo);
   }
   return self;
 }

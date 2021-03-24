@@ -15,6 +15,7 @@ let package = Package(
 		  targets: ["FirebaseFirestoreSwiftTarget"]
 		)
 	],
+	dependencies: [.package(name: "Helper", path: "Helper")],
 	targets: [
 		.target(
 			name: "FirebaseFirestoreTarget",
@@ -25,6 +26,7 @@ let package = Package(
 		
 		.target(
 			name: "FirebaseFirestore",
+			dependencies: [.product(name: "Helper", package: "Helper")],
 			path: "Firestore",
 			exclude: [
 				"Swift/"
